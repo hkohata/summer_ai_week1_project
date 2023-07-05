@@ -16,3 +16,10 @@ def manageAccountMenu():
     print("4. View all my messages")
     print("5. <- Go back ")
     return input("Please Choose a number: ")
+
+def editDetailsMenu():
+    print("")
+    print("1. Edit name")
+    print("2. Edit age")
+    print("3. exit")
+    return input("Please Choose a number:")
